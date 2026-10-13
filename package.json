@@ -1,0 +1,11 @@
+{
+  "name": "projectflow",
+  "private": true,
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "dev:api": "npm --prefix backend run dev",
+    "dev:web": "npm --prefix frontend run dev",
+    "db:setup": "npm --prefix backend run db:setup",
+    "build": "npm --prefix frontend run build"
+  }
+}
